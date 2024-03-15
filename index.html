@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="icons/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+<div id="all-page" class="single-page">
+
+<nav class="all-nav">
+<div class="container d-flex justify-content-between align-items-center">
+
+<div class="logo d-flex align-items-center ">
+  <div class="imge">
+<img class="" src="img-t/logo.png" alt="">
+  </div>
+<div class="info-logo pt-4 px-3 text-light">
+<h4 class="fs-6"> Weather</h4>
+<p>tagline goes here</p>
+</div>
+  </div>
+
+
+<div class="lista w-50 ">
+<ul class="list-unstyled d-flex justify-content-between align-items text-light pt-4">
+<li> <a class=" border border-2 border-info rounded-pill" class="p-2 text-primary" href="">Home</a> </li>
+<li><a href="">News</a></li>
+<li><a href="">Live cameras</a></li> 
+<li><a href="">Photos</a></li>
+<li><button id="cont-jv" class="bg-transparent">Contact</button></li>
+</ul>
+
+</div>
+
+</div>
+  
+</nav>
+
+<section class="home-page ">
+
+  <div class="all-btn pt-5">
+
+<div class="input-search text-center">
+<input class="text-light" type="text" name="" id="search-input" placeholder="find your location">
+  </div>
+
+<div class="ptn pt-5">
+<button id="buton" class="btn btn-info px-4 rounded-pill">Find</button>
+
+</div>
+
+  </div>
+
+<div class="container mb-5">
+
+<div class="row py-5 mt-5">
+
+<div class="col-md-4 g-0 bac">
+
+<div class="card rounded-0 text-center">
+
+  <div class="head-card d-flex justify-content-between days-card">
+<h4>Tuesday</h4>
+<p>21February</p>
+</div>
+
+<div id="country" class="head-info">
+<img src="" alt="">
+<p class="text-start ps-4">cairo</p>
+<h2 class="text-start ps-5"></h2>
+
+<p class="ps-5 text-start ">Partly cloudy</p>
+
+</div>
+
+
+
+<div class="imge-card w-100 mt-auto">
+
+<img src="img-t/icon-umberella.png" alt="">
+<span>20%</span>
+
+<img src="img-t/icon-wind.png" alt="">
+<span>18km/h</span>
+
+
+<img src="img-t/icon-compass.png" alt="">
+<span>East</span>
+</div>
+
+</div>
+</div>
+
+
+<div class="col-md-4 g-0">
+
+<div class="card cd-test rounded-0 text-center">
+<div class="head-2card ">
+<h4>Wednesday</h4>
+</div>
+
+
+<div class="info-card ">
+  <img class="m-5" src="img-t/113 (1).png" alt="" srcset="">
+<h2 class="fs-4">24.4oC</h2>
+<p>winter</p>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="col-md-4 g-0">
+
+<div class="card rounded-0 text-center">
+<div class="head-2card  days3-card">
+<h4>Wednesday</h4>
+</div>
+
+
+<div class="info-card  third-day">
+  <img class="m-5" src="img-t/113 (1).png" alt="" srcset="">
+<h2 class="fs-4">24.4oC</h2>
+<h3 class="fs-4"></h3>
+<p>winter</p>
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+</section>
+
+<!-- footer -->
+
+<footer>
+<div class="footer-page">
+
+<div class="container">
+
+<div class="row  pt-5">
+
+<div class="col-md-6 ">
+
+<div class="all-item">
+
+
+<div class="input-footer">
+<input type="email" placeholder="Enter your Email To Subscribe">
+
+<p class="ps-2">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+</div>
+
+<div class="btn-fot">
+<button class="btn btn-info rounded-pill ">Subscribe</button>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<div class="col-md-4 ps-5  offset-1">
+
+<div class="icon">
+
+<i class="fa-brands fa-facebook-f text-info p-3 "></i>
+
+<i class="fa-brands fa-twitter text-info p-3  "></i>
+
+<i class="fa-brands fa-google-plus-g text-info p-3"></i>
+
+<i class="fa-brands fa-paypal text-info p-3"></i>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</footer>
+
+</div>
+
+</header>
+
+<!-- hiding page -->
+<section>
+
+  <div id="page-form" class="page3-hid">
+<nav class="all-nav">
+<div class="container d-flex justify-content-between align-items-center">
+
+<div class="logo d-flex align-items-center ">
+  <div class="imge">
+<img class="" src="img-t/logo.png" alt="">
+  </div>
+<div class="info-logo pt-4 px-3 text-light">
+<h4 class="fs-6"> Weather</h4>
+<p>tagline goes here</p>
+</div>
+  </div>
+
+<div class="lista w-50 pt-3">
+<ul class="list-unstyled d-flex justify-content-between align-items text-light  ">
+<li><button onclick="replayHome()" id="cont-jv" class="bg-transparent">Home</button></li>
+
+<li><a>News</a></li>
+<li><a href="">Live cameras</a></li>
+<li><a href="">Photos</a></li>
+<li><a class=" border border-2 border-info rounded-pill" class="p-2 text-primary" href="">Contact</a></li>
+</ul>
+
+</div>
+
+</div>
+  
+</nav>
+
+<div class="container">
+
+<div class="bac-hiding d-flex pt-3 ps-3 rounded-pill mt-5">
+
+<a href="" id="replay-ptn">Home</a>
+
+<i class="fa-solid fa-arrow-right-long  p-2"></i>
+
+<p class="text-light">Contact</p>
+
+</div>
+
+
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="loci">
+
+
+<div class="card-hid  mt-5 rounded-3" style="width: 26rem; ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155421.5937219156!2d13.564813468029367!3d52.50697037934692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2z2KjYsdmE2YrZhtiMINij2YTZhdin2YbZitin!5e0!3m2!1sar!2seg!4v1677096581112!5m2!1sar!2seg" width="415" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="card-body p-4">
+    <p class="card-text w-75"><i class="fa-solid fa-location-dot pe-2 text-info"></i>Company Name INC.2803 Avenue  <p class="ps-3">Street, Berlin</p>   </p>
+<div class="icons-lower d-flex">
+
+<p class="card-text w-75"><i class="fa-solid fa-phone pe-2 text-info"></i>+1 800 314 235</p>
+
+<p class="card-text w-75"><i class="fa-regular fa-envelope pe-2 text-info"></i>@companyname.com</p>
+
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4 offset-1 ">
+
+<div class="form-info mt-5">
+
+      <h2 class="text-light">Contact us</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+
+</div>
+
+<div class="for-contact mt-5">
+
+<table>
+<tbody>
+
+<tr>
+  <td><input type="text" placeholder="Your name"></td>
+  <td><input type="text" placeholder="Email Address"></td>
+
+</tr>
+
+<tr>
+  <td><input type="text" placeholder="Company Name"></td>
+  <td><input type="text" placeholder="Email Address"></td>
+  
+</tr>
+
+<tr>
+  <td>
+    <textarea class="form-control last-iput ms-2 rounded-4 bg-transparent" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </td>
+</tr>
+
+<tr>
+<td>
+    <div class="btn-iput text-end"><button class="btn btn-info rounded-pill mt-2 px-3 text-light mb-3">submit</button></div>
+
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<div class="footer-page">
+
+<div class="container">
+
+<div class="row  pt-5">
+
+<div class="col-md-6 ">
+
+<div class="all-item">
+
+<div class="input-footer">
+<input type="email" placeholder="Enter your Email To Subscribe">
+
+<p class="ps-2">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+</div>
+<div class="btn-fot">
+<button class="btn btn-info rounded-pill ">Subscribe</button>
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4 ps-5  offset-1">
+
+<div class="icon">
+
+<i class="fa-brands fa-facebook-f text-info p-3 "></i>
+
+<i class="fa-brands fa-twitter text-info p-3  "></i>
+
+<i class="fa-brands fa-google-plus-g text-info p-3"></i>
+
+<i class="fa-brands fa-paypal text-info p-3"></i>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+  </div>
+
+</section>
+
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
